@@ -5,7 +5,7 @@ phases:
         nodejs: 10
   build:
     commands:
-      - export BUCKET=lambda-deployment-artifacts-123456789012
+      - export BUCKET=nelli-lambda-deployment-artifacts-123456789012
       - aws cloudformation package --template-file template.yml --s3-bucket $BUCKET --output-template-file outputtemplate.yml
 artifacts:
   type: zip
