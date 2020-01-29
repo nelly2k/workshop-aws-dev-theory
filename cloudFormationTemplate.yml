@@ -1,0 +1,9 @@
+Description: My Money deployment
+Resources:
+  my-lambda:
+      Type: AWS::Lambda::Function
+      Properties: 
+        Handler: index.handler
+        Runtime: nodejs12.x
+        Role: !GetAtt lambdaRole.Arn
+        Code: ./my-lambda/
