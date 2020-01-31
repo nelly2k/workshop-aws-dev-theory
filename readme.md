@@ -3,7 +3,6 @@
 ## Repository
 ### Credentials
 In order to obtain credentials for git go to  Your name on top nav menu -> My Security Credentials -> AWS CodeCommit credentials tab -> HTTPS Git credentials for AWS CodeCommit
-![Git Credentials. Step 1](./img/git-credentials0.jpg)
 ![Git credentials. Step 2](./img/git-credentials.jpg)
 
 ### Create repository
