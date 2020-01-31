@@ -31,7 +31,7 @@ exports.handler = async (event) => {
 ```
 
 ### Create CloudFormation template
-create buildSpec.yaml
+create buildspec.yaml
 
 ```yaml
 Description: Dev Theory Workshop
