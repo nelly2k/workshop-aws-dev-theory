@@ -41,7 +41,7 @@ Resources:
       Properties: 
         Handler: index.handler
         Runtime: nodejs12.x
-        Code: ./my-lambda/
+        Code: index.js
         Role: arn:aws:iam::668744333666:role/LambdaBasic
 Outputs:
   myLambdaArn:
